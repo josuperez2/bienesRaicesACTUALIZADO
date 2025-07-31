@@ -1,0 +1,19 @@
+{
+    "name": "jdperez/bienes-raices-php_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "jdperez",
+            "email": "jdperez@digecam.mil.gt"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models"
+    }
+}
+}
