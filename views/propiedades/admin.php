@@ -1,4 +1,5 @@
-<h1>Admin</h1>
-<p>desde la vista</p>
+<?php
 
-<em>Probando...</em>
+echo $mensaje;
+
+?>

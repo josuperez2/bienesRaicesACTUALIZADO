@@ -6,7 +6,10 @@ use MVC\Router;
 
 class propiedadController{
     public static function index(Router $router){
-       $router->render('propiedades/admin');
+       
+       $router->render('propiedades/admin', [
+        
+       ]);
         
     }
 
