@@ -27,4 +27,14 @@ class Router{
     }
 }
 
+//Muestra una vista
+public function render($view){
+    ob_start();
+    include __DIR__ .  "/views/$view.php";
+
+    $contenido = ob_get_clean();
+
+    include __DIR__ .  "/views/layout.php";
+}
+
 }
